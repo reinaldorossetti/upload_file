@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload New File</title>
+</head>
+
+<body>
+    <h1>Upload APK ou IPA para Servidor</h1>
+
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+
+{% block content %}
+<div class="container">
+    {% for message in get_flashed_messages() %}
+    <br>
+    <div class="alert alert-warning"><b>
+        {{ message }}
+    </b></div>
+    {% endfor %}
+
+    {% block page_content %}{% endblock %}
+</div>
+{% endblock %}
+</body>
+
+</html>
+
