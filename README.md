@@ -7,10 +7,10 @@ pip install requests
 pip install flask  
 pip install -U Werkzeug  
 
-python 3:
-pip install requests  
-pip install flask  
-pip install -U Werkzeug 
+python 3:  
+pip3 install requests   
+pip3 install flask    
+pip3 install -U Werkzeug   
 
 
 Download Libs from https://pypi.org
