@@ -31,8 +31,8 @@ click,
 
 3. Install libs:  
 pip install *.whl  
-or
-pip3 install *.whl  
+or  
+pip3 install *.whl    
 
 4. Start Server    
 cd upload_file   
