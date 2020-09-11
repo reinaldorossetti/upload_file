@@ -31,3 +31,6 @@ click,
 
 3. Install libs:  
 pip install *.whl  
+
+References:
+https://flask.palletsprojects.com/en/1.1.x/patterns/fileuploads/
