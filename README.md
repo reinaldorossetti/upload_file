@@ -16,7 +16,7 @@ pip3 install -U Werkzeug
 Download Libs from https://pypi.org
 
 
-**Instalation from local:**
+**Installation from local:**
 
 1. Created folder:  
 mkdir libs_upload  
