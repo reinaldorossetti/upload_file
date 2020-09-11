@@ -23,10 +23,11 @@ mkdir libs_upload
 cd libs_upload  
 
 2. Download libs in folder:  
-"Werkzeug>=0.15",  
-"Jinja2>=2.10.1",  
-"itsdangerous>=0.24",  
-"click>=5.1",  
+Flask,
+Werkzeug,  
+Jinja2,  
+itsdangerous,  
+click,  
 
 3. Install libs:  
 pip install *.whl  
