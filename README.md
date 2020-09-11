@@ -32,9 +32,9 @@ click,
 3. Install libs:  
 pip install *.whl  
 
-4. Start Server  
-cd upload_file 
-sudo python3 server.py  
+4. Start Server    
+cd upload_file   
+sudo python3 server.py    
   
 References:
 https://flask.palletsprojects.com/en/1.1.x/patterns/fileuploads/
