@@ -33,7 +33,7 @@ click,
 pip install *.whl  
 
 4. Start Server  
-cd <project folder>  
+cd upload_file 
 sudo python3 server.py  
   
 References:
